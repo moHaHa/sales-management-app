@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/t_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="#30ffffff"
+        android:padding="18dp"
+        android:translationY="170dp"
+        android:drawableRight="@drawable/baseline_person_24"
+        android:ems="10"
+        android:text="user name"
+        />
+    <Button
+        android:id="@+id/b_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:translationY="320dp"
+        android:text="log in" />
+
+    <EditText
+        android:id="@+id/t_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="#30ffffff"
+        android:padding="14dp"
+        android:translationY="250dp"
+        android:ems="10"
+        android:drawableRight="@drawable/baseline_lock_24"
+
+
+        android:text="password"
+        android:inputType="textPassword" />
+    <TextView
+        android:id="@+id/t_forget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="420dp"
+        android:textColorHint="@color/cardview_shadow_start_color"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="140dp"
+        android:textSize="18dp"
+
+        android:text="forget password" />
+
+
+
+</RelativeLayout>
